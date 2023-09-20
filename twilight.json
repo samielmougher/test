@@ -741,6 +741,13 @@
                     ]
                 }
             ]
+        },
+        {
+            "key": "69dc23e6-2872-4ceb-9132-a0c27cd48caf",
+            "title": "features",
+            "icon": "sicon-store",
+            "path": "home.features",
+            "fields": []
         }
     ],
     "support_url": "https://example.com",
