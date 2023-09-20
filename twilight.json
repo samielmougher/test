@@ -747,7 +747,53 @@
             "title": "features",
             "icon": "sicon-store",
             "path": "home.features",
-            "fields": []
+            "fields": [
+                {
+                    "id": "features",
+                    "key": "94c02344-299b-49b3-b6be-3bcaa06ab050",
+                    "type": "collection",
+                    "format": "collection",
+                    "label": "مميزات المتجر",
+                    "description": null,
+                    "labelHTML": null,
+                    "item_label": null,
+                    "icon": "sicon-list-add",
+                    "fields": [
+                        {
+                            "id": "icon_picker",
+                            "key": "6b85f997-2b9f-48e6-9518-2be9528c30dd",
+                            "type": "string",
+                            "format": "icon",
+                            "label": "الايقونة",
+                            "description": null,
+                            "labelHTML": null,
+                            "icon": "sicon-user-circle",
+                            "value": "sicon-store",
+                            "required": true
+                        },
+                        {
+                            "id": "alaanoan",
+                            "key": "f1de946a-6ac0-4e39-97bf-750f3dd09f90",
+                            "type": "string",
+                            "format": "text",
+                            "label": "العنوان",
+                            "description": null,
+                            "labelHTML": null,
+                            "placeholder": "Placeholder text ..",
+                            "icon": "sicon-format-text-alt",
+                            "value": null,
+                            "multilanguage": false,
+                            "required": true,
+                            "minLength": 6,
+                            "maxLength": 30
+                        }
+                    ],
+                    "value": [],
+                    "required": true,
+                    "minLength": 1,
+                    "maxLength": 5
+                }
+            ]
         }
     ],
     "support_url": "https://example.com",
